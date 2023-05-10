@@ -1,0 +1,37 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Create an Employee class that sets an employee's first name, last name, job title, salary, and email. The Employee class should have a class attribute for the raise amount set to 5% (1.05). Create a method that will apply the raise to an employee's salary."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Create two more classes that inherit from the Employee class. One for Sales and one for Development. Both of these classes will have the same attributes as the Employee.<br>\n",
+    "- For the Sales employees, add a phone number attribute on instantiation using the super method. \n",
+    "- Create a method on the Sales class that will Send a Follow Up Email. It should take in a customer name and \"send\" aka print a formatted email \"Dear *customer*, Thank you for your interest in our product. Please let me know if you have any questions. My email is *email* or my phone number is *phone number*. Thanks, *full name*\"\n",
+    "- Create a method on the Development class called code that will print out \"*full name* is writing code\"."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#### Exercise 1 - Class Inheritance"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "- Create an instance of a Sales Employee with a salary of $50,000.\n",
+    "- Send follow up emails to \"Mike O'Neil\" and \"Hannah Stern\"\n",
+    "- Give the employee a raise and print the salary"
